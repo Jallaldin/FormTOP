@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    width: 80%;
+    height: 100vh;
+    background-image: url(mohamed-nohassi-odxB5oIG_iA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 200px;
+
+}
+
+.odin-logo {
+    width: 100px;
+    height: 120px;
+}
+
+.odin-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+.right-side {}
+
+.top-rightside {
+    margin-top: 100px;
+    margin-right: 120px;
+    margin-left: 60px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.form-container h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    width: 100%;
+    background-color: white;
+    padding-left: 60px;
+    box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+form {
+    width: 100%;
+}
+
+form section div {
+    float: left;
+    width: 45%;
+
+}
+
+form section div.full {
+    clear: both;
+}
+
+form section div label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 75%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input:focus {
+    border-color: blue;
+}
+
+
+input:valid {
+    border-color: #ccc;
+}
+
+
+.button-container {
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: "600";
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.account {
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 15px;
+}
+
+.account a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+}

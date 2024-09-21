@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="left-side">
+        <div class="logo-container">
+            <img class='odin-logo' src="odin-lined.png" alt="Odin Project logo">
+            <h1 class="odin-title">ODIN</h1>
+        </div>
+    </section>
+
+    <div class="right-side">
+
+        <div class="top-rightside">
+            <h1>This is not a real online service! You know you need something like this in your life to help you
+                realise
+                your greatest dreams. Sign up now to get started.
+                <p>You know you want to.</p>
+            </h1>
+        </div>
+
+        <form action="" method="POST">
+            <div class="form-container">
+
+                <h2>Let's do this!</h2>
+
+                <div class="input-container">
+
+                    <section>
+                        <div>
+                            <label for="firstname">First Name</label>
+                            <input type="text" id="firstname" name="firstname" required>
+                        </div>
+
+                        <div>
+                            <label for="lastname">Last Name</label>
+                            <input type="text" id="lastname" name="lastname" required>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div>
+                            <label for="phonenumber">Phone Number</label>
+                            <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{11}"
+                            required>
+                        </div>
+                    </section>
+                    <section>
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div>
+                            <label for="password">Confirm Password</label>
+                            <input type="password" id="confirmpassword" name="confirmpassword" required>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+            <div class="button-container">
+                <button type="submit">Create Account</button>
+            </div>
+            
+        </form>
+        <div class="account">
+            <p>Already have an account? <a href="#">Sign in</a></p>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
